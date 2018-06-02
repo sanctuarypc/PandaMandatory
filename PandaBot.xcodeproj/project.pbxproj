@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2989CC620C3047F009EDBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2989CC520C3047F009EDBE0 /* AppDelegate.swift */; };
+		A2989CC820C3047F009EDBE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2989CC720C3047F009EDBE0 /* GameScene.sks */; };
+		A2989CCA20C3047F009EDBE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2989CC920C3047F009EDBE0 /* Actions.sks */; };
+		A2989CCC20C3047F009EDBE0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2989CCB20C3047F009EDBE0 /* GameScene.swift */; };
+		A2989CCE20C3047F009EDBE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2989CCD20C3047F009EDBE0 /* ViewController.swift */; };
+		A2989CD020C30483009EDBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2989CCF20C30483009EDBE0 /* Assets.xcassets */; };
+		A2989CD320C30483009EDBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2989CD120C30483009EDBE0 /* Main.storyboard */; };
+		A2989CDF20C30483009EDBE0 /* PandaBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2989CDE20C30483009EDBE0 /* PandaBotTests.swift */; };
+		A2989CEA20C30483009EDBE0 /* PandaBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2989CE920C30483009EDBE0 /* PandaBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2989CDB20C30483009EDBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2989CBA20C3047E009EDBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2989CC120C3047E009EDBE0;
+			remoteInfo = PandaBot;
+		};
+		A2989CE620C30483009EDBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2989CBA20C3047E009EDBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2989CC120C3047E009EDBE0;
+			remoteInfo = PandaBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2989CC220C3047E009EDBE0 /* PandaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2989CC520C3047F009EDBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2989CC720C3047F009EDBE0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A2989CC920C3047F009EDBE0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A2989CCB20C3047F009EDBE0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A2989CCD20C3047F009EDBE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2989CCF20C30483009EDBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2989CD220C30483009EDBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2989CD420C30483009EDBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2989CD520C30483009EDBE0 /* PandaBot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PandaBot.entitlements; sourceTree = "<group>"; };
+		A2989CDA20C30483009EDBE0 /* PandaBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2989CDE20C30483009EDBE0 /* PandaBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaBotTests.swift; sourceTree = "<group>"; };
+		A2989CE020C30483009EDBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2989CE520C30483009EDBE0 /* PandaBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2989CE920C30483009EDBE0 /* PandaBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaBotUITests.swift; sourceTree = "<group>"; };
+		A2989CEB20C30483009EDBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2989CBF20C3047E009EDBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CD720C30483009EDBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CE220C30483009EDBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2989CB920C3047E009EDBE0 = {
+			isa = PBXGroup;
+			children = (
+				A2989CC420C3047E009EDBE0 /* PandaBot */,
+				A2989CDD20C30483009EDBE0 /* PandaBotTests */,
+				A2989CE820C30483009EDBE0 /* PandaBotUITests */,
+				A2989CC320C3047E009EDBE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2989CC320C3047E009EDBE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2989CC220C3047E009EDBE0 /* PandaBot.app */,
+				A2989CDA20C30483009EDBE0 /* PandaBotTests.xctest */,
+				A2989CE520C30483009EDBE0 /* PandaBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2989CC420C3047E009EDBE0 /* PandaBot */ = {
+			isa = PBXGroup;
+			children = (
+				A2989CC520C3047F009EDBE0 /* AppDelegate.swift */,
+				A2989CC720C3047F009EDBE0 /* GameScene.sks */,
+				A2989CC920C3047F009EDBE0 /* Actions.sks */,
+				A2989CCB20C3047F009EDBE0 /* GameScene.swift */,
+				A2989CCD20C3047F009EDBE0 /* ViewController.swift */,
+				A2989CCF20C30483009EDBE0 /* Assets.xcassets */,
+				A2989CD120C30483009EDBE0 /* Main.storyboard */,
+				A2989CD420C30483009EDBE0 /* Info.plist */,
+				A2989CD520C30483009EDBE0 /* PandaBot.entitlements */,
+			);
+			path = PandaBot;
+			sourceTree = "<group>";
+		};
+		A2989CDD20C30483009EDBE0 /* PandaBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2989CDE20C30483009EDBE0 /* PandaBotTests.swift */,
+				A2989CE020C30483009EDBE0 /* Info.plist */,
+			);
+			path = PandaBotTests;
+			sourceTree = "<group>";
+		};
+		A2989CE820C30483009EDBE0 /* PandaBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2989CE920C30483009EDBE0 /* PandaBotUITests.swift */,
+				A2989CEB20C30483009EDBE0 /* Info.plist */,
+			);
+			path = PandaBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2989CC120C3047E009EDBE0 /* PandaBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2989CEE20C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBot" */;
+			buildPhases = (
+				A2989CBE20C3047E009EDBE0 /* Sources */,
+				A2989CBF20C3047E009EDBE0 /* Frameworks */,
+				A2989CC020C3047E009EDBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaBot;
+			productName = PandaBot;
+			productReference = A2989CC220C3047E009EDBE0 /* PandaBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2989CD920C30483009EDBE0 /* PandaBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2989CF120C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBotTests" */;
+			buildPhases = (
+				A2989CD620C30483009EDBE0 /* Sources */,
+				A2989CD720C30483009EDBE0 /* Frameworks */,
+				A2989CD820C30483009EDBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2989CDC20C30483009EDBE0 /* PBXTargetDependency */,
+			);
+			name = PandaBotTests;
+			productName = PandaBotTests;
+			productReference = A2989CDA20C30483009EDBE0 /* PandaBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2989CE420C30483009EDBE0 /* PandaBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2989CF420C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBotUITests" */;
+			buildPhases = (
+				A2989CE120C30483009EDBE0 /* Sources */,
+				A2989CE220C30483009EDBE0 /* Frameworks */,
+				A2989CE320C30483009EDBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2989CE720C30483009EDBE0 /* PBXTargetDependency */,
+			);
+			name = PandaBotUITests;
+			productName = PandaBotUITests;
+			productReference = A2989CE520C30483009EDBE0 /* PandaBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2989CBA20C3047E009EDBE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = PandaMachine;
+				TargetAttributes = {
+					A2989CC120C3047E009EDBE0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A2989CD920C30483009EDBE0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A2989CC120C3047E009EDBE0;
+					};
+					A2989CE420C30483009EDBE0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A2989CC120C3047E009EDBE0;
+					};
+				};
+			};
+			buildConfigurationList = A2989CBD20C3047E009EDBE0 /* Build configuration list for PBXProject "PandaBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2989CB920C3047E009EDBE0;
+			productRefGroup = A2989CC320C3047E009EDBE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2989CC120C3047E009EDBE0 /* PandaBot */,
+				A2989CD920C30483009EDBE0 /* PandaBotTests */,
+				A2989CE420C30483009EDBE0 /* PandaBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2989CC020C3047E009EDBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2989CC820C3047F009EDBE0 /* GameScene.sks in Resources */,
+				A2989CD020C30483009EDBE0 /* Assets.xcassets in Resources */,
+				A2989CCA20C3047F009EDBE0 /* Actions.sks in Resources */,
+				A2989CD320C30483009EDBE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CD820C30483009EDBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CE320C30483009EDBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2989CBE20C3047E009EDBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2989CCE20C3047F009EDBE0 /* ViewController.swift in Sources */,
+				A2989CCC20C3047F009EDBE0 /* GameScene.swift in Sources */,
+				A2989CC620C3047F009EDBE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CD620C30483009EDBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2989CDF20C30483009EDBE0 /* PandaBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2989CE120C30483009EDBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2989CEA20C30483009EDBE0 /* PandaBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2989CDC20C30483009EDBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2989CC120C3047E009EDBE0 /* PandaBot */;
+			targetProxy = A2989CDB20C30483009EDBE0 /* PBXContainerItemProxy */;
+		};
+		A2989CE720C30483009EDBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2989CC120C3047E009EDBE0 /* PandaBot */;
+			targetProxy = A2989CE620C30483009EDBE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2989CD120C30483009EDBE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2989CD220C30483009EDBE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2989CEC20C30483009EDBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2989CED20C30483009EDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2989CEF20C30483009EDBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PandaBot/PandaBot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A2989CF020C30483009EDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PandaBot/PandaBot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A2989CF220C30483009EDBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaBot.app/Contents/MacOS/PandaBot";
+			};
+			name = Debug;
+		};
+		A2989CF320C30483009EDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaBot.app/Contents/MacOS/PandaBot";
+			};
+			name = Release;
+		};
+		A2989CF520C30483009EDBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PandaBot;
+			};
+			name = Debug;
+		};
+		A2989CF620C30483009EDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PandaBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SANCTUARYPC.PandaBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PandaBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2989CBD20C3047E009EDBE0 /* Build configuration list for PBXProject "PandaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2989CEC20C30483009EDBE0 /* Debug */,
+				A2989CED20C30483009EDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2989CEE20C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2989CEF20C30483009EDBE0 /* Debug */,
+				A2989CF020C30483009EDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2989CF120C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2989CF220C30483009EDBE0 /* Debug */,
+				A2989CF320C30483009EDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2989CF420C30483009EDBE0 /* Build configuration list for PBXNativeTarget "PandaBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2989CF520C30483009EDBE0 /* Debug */,
+				A2989CF620C30483009EDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2989CBA20C3047E009EDBE0 /* Project object */;
+}
